@@ -132,6 +132,10 @@ typedef NS_ENUM(NSInteger, IMAAdEventType){
      */
     kIMAAdEvent_LOADED,
     /**
+     *  A log event for the ads being played. These are typically non fatal errors.
+     */
+    kIMAAdEvent_LOG,
+    /**
      *  Midpoint of a linear ad was reached.
      */
     kIMAAdEvent_MIDPOINT,
@@ -151,6 +155,10 @@ typedef NS_ENUM(NSInteger, IMAAdEventType){
      *  Ad has started.
      */
     kIMAAdEvent_STARTED,
+    /**
+     *  Stream has loaded (only used for dynamic ad insertion).
+     */
+    kIMAAdEvent_STREAM_LOADED,
     /**
      *  Ad tapped.
      */
