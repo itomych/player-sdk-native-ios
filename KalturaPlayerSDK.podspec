@@ -53,7 +53,7 @@ end
 
 s.subspec 'GoogleCast' do |sp|
     sp.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS'=>'GOOGLE_CAST_ENABLED=1' }
-    sp.dependency 'google-cast-sdk', '~> 3.2.0'
+    sp.dependency 'google-cast-sdk', '~> 3.3.0'
 end
 
 end
